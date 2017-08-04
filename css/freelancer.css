@@ -68,8 +68,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: url('../img/ocean.jpg');
+  color: #f4f7f5;
 }
 header .container {
   padding-top: 100px;
@@ -103,26 +103,26 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #f4f7f5;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: #292928;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: #F1F2EB;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: #292928;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #18BC9C;
@@ -155,7 +155,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
